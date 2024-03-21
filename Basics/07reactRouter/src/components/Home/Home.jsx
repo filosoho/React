@@ -32,13 +32,13 @@ export default function Home() {
                 </div>
 
                 <div className="absolute inset-0 w-full sm:my-20 sm:pt-1 pt-12 h-full ">
-                    <img className="w-96" src="../src/assets/img/workinginhome.png" alt="image1" />
+                    <img className="w-96" src="/assets/workinginhome.png" alt="image1" />
                 </div>
             </aside>
 
             <Link to="/contact">
             <div className="grid  place-items-center sm:mt-20">
-                <img className="sm:w-96 w-48" src="../src/assets/img/email.png" alt="image2" />
+                <img className="sm:w-96 w-48" src="/assets/email.png" alt="image2" />
             </div>
 
             <h1 className="text-center text-2xl sm:text-5xl py-10 font-medium">Contact Us</h1>
